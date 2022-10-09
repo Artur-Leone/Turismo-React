@@ -1,0 +1,80 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App body{
+  min-height: 62vh;
+}
+
+.lista{
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  padding: 15px;
+  margin: 0px 10px 0px 0px;
+}
+
+.lista a:hover{
+  background-color: #0e2974;
+}
+
+.lista:focus{
+  color: aqua;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+.App-footer p{
+  margin: 0;
+}
+
+.containerHome{
+  width: 48%;
+  margin: 0 auto;
+}
+
+.imagem{
+  width: 700px;
+
+}
+
+.imagem img{
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.form{
+  margin-top: 50px;
+  justify-items: center;
+  text-align: center;
+  padding: 0;
+}
